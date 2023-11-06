@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li, a {
+  list-style: none;
+  text-decoration: none;
+}
+
+#app {
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  background: url(../imagens/topo.jpg) no-repeat;
+  height: 485px;
+  background-color: #000;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1;
+  padding: 8px 0;
+  background-color: #081a24;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li a {
+  color: white;
+  opacity: 0.5;
+  letter-spacing: 3px;
+  font-size: small;
+  text-transform: uppercase;
+}
+
+nav ul li+li {
+  margin-left: 30px;
+}
+
+#portifolio {
+  text-align: center;
+  padding: 112px 0;
+}
+
+#portifolio h1 {
+  font-size: 36px;
+}
+
+#portifolio p {
+  margin: 36px 0 72px;
+  line-height: 190%;
+  color: gray;
+}
+
+#portifolio .galery {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card h4 {
+  margin: 16px 0 8px;
+  text-transform: uppercase;
+  color: #545356;
+  letter-spacing: 2.5px;
+
+}
+
+.card span {
+  color: gray;
+}
+
+#about {
+  height: 500px;
+  background-color: #013b53;
+  background-image: url(../imagens/bg_detalhe.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  padding: 80px;
+  color: white;
+}
+
+#about h1 {
+  font-size: 48px;
+}
+
+#about p {
+  margin-top: 40px;
+  color: #e4ebe2;
+  max-width: 400px;
+  line-height: 120%;
+}
+
+#contact {
+  text-align: center;
+  color: #073d52;
+  margin: 40px 0;
+  text-transform: uppercase;
+}
+
+#contact h3 {
+  font-size: 24px;
+
+}
+
+footer {
+  background-color: #081a24;
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer span  {
+  display: inline-block;
+  height: 52px;
+  line-height: 52px;
+  color: white;
+  letter-spacing: 4px;
+  opacity: 0.5;
+  font-size: 12px;
+}
